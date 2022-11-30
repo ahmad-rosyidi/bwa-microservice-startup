@@ -1,6 +1,7 @@
 package campaign
 
 import (
+	"bwastartup/user"
 	"time"
 )
 
@@ -18,7 +19,7 @@ type Campaign struct {
 	CreatedAt        time.Time
 	UpdatedAt        time.Time
 	CampaignImages   []CampaignImage
-	// User             user.User
+	User             user.User
 }
 
 // func (c Campaign) GoalAmountFormatIDR() string {
